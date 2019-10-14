@@ -74,6 +74,26 @@ public class BannerViewPager extends RelativeLayout implements ViewPager.OnPageC
 
     }
 
+    public ViewPager getViewPager(){
+        return mViewPager;
+    }
+
+    public BannerPagerAdapter getPagerAdapter(){
+        return mPagerAdapter;
+    }
+
+    public ImageView[] getImageView(){
+        return mImageView;
+    }
+
+    public int getCurrentIndex(){
+        return currentIndex;
+    }
+
+    public boolean isPoint(){
+        return isPoint;
+    }
+
     /**
      * 初始化viewpager
      * @param list  url集合
