@@ -97,20 +97,12 @@ public class BannerPagerAdapter  extends PagerAdapter {
     public  void LoadImage(String url, ImageView imageview) {
         if(mRoundCorners==-1){
             Glide.with(mContext)
-                    .load(url)
-                    .centerCrop()
-                    .dontAnimate()//防止设置placeholder导致第一次不显示网络图片,只显示默认图片的问题
-                    .placeholder(defaultImg)
-                    .diskCacheStrategy(DiskCacheStrategy.SOURCE).into(imageview);
+                    .load(url).into(imageview);
         }
         else {
             Glide.with(mContext)
                     .load(url)
-                    .centerCrop()
-                    .dontAnimate()//防止设置placeholder导致第一次不显示网络图片,只显示默认图片的问题
-                    .placeholder(defaultImg)
-                    .transform(new CornerTransform(mContext, mRoundCorners))
-                    .diskCacheStrategy(DiskCacheStrategy.SOURCE).into(imageview);
+                   .into(imageview);
         }
     }
 

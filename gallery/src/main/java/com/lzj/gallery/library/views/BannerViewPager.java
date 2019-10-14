@@ -134,7 +134,7 @@ public class BannerViewPager extends RelativeLayout implements ViewPager.OnPageC
      * 初始化viewpager
      * @param list  url集合
      * @param isGallery 是否使用3D画廊效果
-     * @param alpha  滑动透明度变化
+     * @param alpha  滑动透明度变化BannerPagerAdapter
      */
     public BannerViewPager initBanner(List<String> list,boolean isGallery,float alpha){
         mList=list;
