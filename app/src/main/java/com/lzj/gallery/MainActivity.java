@@ -1,5 +1,6 @@
 package com.lzj.gallery;
 
+import android.app.TabActivity;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
@@ -7,7 +8,6 @@ import android.view.View;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.lzj.gallery.activity.TabActivity;
 import com.lzj.gallery.library.views.BannerViewPager;
 import com.lzj.gallery.utils.IntentUtil;
 

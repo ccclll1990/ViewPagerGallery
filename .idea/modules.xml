@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/Git-ViewPagerGallery.iml" filepath="$PROJECT_DIR$/Git-ViewPagerGallery.iml" />
       <module fileurl="file://$PROJECT_DIR$/ViewPagerGallery.iml" filepath="$PROJECT_DIR$/ViewPagerGallery.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/ViewPagerGallery-app.iml" filepath="$PROJECT_DIR$/app/ViewPagerGallery-app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gallery/ViewPagerGallery-gallery.iml" filepath="$PROJECT_DIR$/gallery/ViewPagerGallery-gallery.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/gallery/gallery.iml" filepath="$PROJECT_DIR$/gallery/gallery.iml" />
     </modules>
